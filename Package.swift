@@ -42,6 +42,7 @@ extension Target {
 
 let package = Package(
   name: "RxSwift",
+  type: .dynamic,
   products: ([
     [
       .library(name: "RxSwift", targets: ["RxSwift"]),
